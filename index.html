@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp" ng-controller="MovieController" class="no-js">  <!-- Use ng-app to tell Angular to bootstrap an application -->
+<html lang="en" ng-app="fastr" class="no-js">  <!-- Use ng-app to tell Angular to bootstrap an application -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,7 @@
         </div>
 
         <div id="main-info" ng-include="'partials/main-info.html'" class="col-md-8"></div>
-
+<!-- The partials which are fetched, compiled and included by the ng-include directive. -->
         <div id="related-results" ng-include="'partials/related-results.html'" class="col-md-4 animated bounce related-results"></div>
       </div>
     </div>
